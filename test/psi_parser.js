@@ -1059,13 +1059,13 @@ function totalBytes(psiResults) {
 }
 
 function ruleList(psiResults) {
-  var ruleList = [];
+  var list = [];
   var ruleResults = psiResults.formattedResults.ruleResults;
   for(var rule in ruleResults) {
     var ruleResult = ruleResults[rule];
-    ruleList.push(ruleResult.localizedRuleName);
+    list.push(ruleResult.localizedRuleName);
   }
-  return ruleList;
+  return list;
 }
 
 var assert = require("assert");
