@@ -38,7 +38,7 @@ console.log(rel1); // "Can't compare relationships because "this" is not a numbe
 
 var rel2 = getRelationship("that");
 console.log(rel2) // "Can't compare relationships because "that" and undefined are not numbers."
-Notice in the second example, because the y value was missing, the output said that undefined was not a number.
 ```
+Notice in the second example, because the y value was missing, the output said that undefined was not a number.
 
 Adapted from UVa [problem 11172](http://uva.onlinejudge.org/external/111/11172.html).
