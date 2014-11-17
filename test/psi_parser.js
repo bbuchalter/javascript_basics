@@ -1055,7 +1055,7 @@ psiResults = {
 };
 
 function totalBytes(psiResults) {
-  return psiResults.pageStats.totalRequestBytes;
+  return parseInt(psiResults.pageStats.totalRequestBytes);
 }
 
 function ruleList(psiResults) {
