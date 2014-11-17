@@ -24,7 +24,8 @@ function getRelationship(x, y) {
   }
 }
 
-var assert = require("assert")
+var assert = require("assert");
+
 describe("isNaN()", function () {
   describe("isNaN(2)", function () {
     it("should return false", function () {
