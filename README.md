@@ -18,8 +18,14 @@ APIs define a contract between a producer and a consumer. The producer of the AP
 The producer documents how the consumer can interact with the function by describing what arguments the function requires the consumer to submit and the structure and types of data the function will return.
 I've consumed APIs from Google Maps, ZenDesk, Facebook, and many others. I've yet to be a producer of an API. One day!
 
+### Problem Set
+All problems are unit tested. To run tests:
+```
+npm -g mocha
+mocha
+```
 
-### Relationship Directions v.2
+#### Relationship Directions v.2
 We learned about relational operators and how they can classify the relationship between two values. Your job is to write the function getRelationship(x,y) function, which should return a string representing whether x is >, < or = y. For example:
 ```javascript
 var rel = getRelationship(2, 3);
