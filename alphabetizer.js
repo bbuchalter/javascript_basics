@@ -1,6 +1,6 @@
 /*
-Requires a name as a string in the format "First Last" as first argument.
-Returns an Object which responds to "first" and "last".
+ Requires a name as a string in the format "First Last" as first argument.
+ Returns an Object which responds to "first" and "last".
  */
 function splitName(name) {
   var nameObj = {};
@@ -11,12 +11,12 @@ function splitName(name) {
 }
 
 /*
-Requires an array of names in the format "First Last" as first argument.
-Returns an array of names in the format "Last, First".
+ Requires an array of names in the format "First Last" as first argument.
+ Returns an array of names in the format "Last, First".
  */
 function formatNames(names) {
   var formattedNames = [];
-  for(var i = 0; i < names.length; i++) {
+  for (var i = 0; i < names.length; i++) {
     var name = splitName(names[i]);
     formattedNames.push(name.last + ", " + name.first);
   }

@@ -100,9 +100,9 @@ psiResults = {
 };
 
 /*
-Returns an integer of total number of bytes in the request and response including totalRequestBytes, cssResponseBytes,
-imageResponseBytes, javascriptResponseBytes, and otherResponseBytes.
-*/
+ Returns an integer of total number of bytes in the request and response including totalRequestBytes, cssResponseBytes,
+ imageResponseBytes, javascriptResponseBytes, and otherResponseBytes.
+ */
 function totalBytes(results) {
   return parseInt(results.pageStats.totalRequestBytes) +
     parseInt(results.pageStats.htmlResponseBytes) +
