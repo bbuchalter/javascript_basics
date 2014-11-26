@@ -1,10 +1,10 @@
-function totalBytes(psiResults) {
-  return parseInt(psiResults.pageStats.totalRequestBytes);
+function totalBytes(results) {
+  return parseInt(results.pageStats.totalRequestBytes);
 }
 
-function ruleList(psiResults) {
+function ruleList(results) {
   var list = [];
-  var ruleResults = psiResults.formattedResults.ruleResults;
+  var ruleResults = results.formattedResults.ruleResults;
   for (var rule in ruleResults) {
     var ruleResult = ruleResults[rule];
     list.push(ruleResult.localizedRuleName);
